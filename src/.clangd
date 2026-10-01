@@ -1,0 +1,6 @@
+CompileFlags:
+  Remove: [-m*, -f*]
+
+  # Enforce macro definitions if target detection stutters
+  Add:
+    - "-D__xtensa__"
